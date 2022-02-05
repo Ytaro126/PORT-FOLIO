@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    &__logo{
+        padding:30px 50px;
+        font-size: 30px;
+        letter-spacing: 17px;
+    }
+    &__menu{
+        display: flex;
+        margin-left:auto;
+        &__item{
+            padding:40px 50px;
+        }
+    }
+}

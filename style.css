@@ -6,4 +6,27 @@ img {
   width: 80%;
   margin: 0 auto;
 }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo {
+  padding: 30px 50px;
+  font-size: 30px;
+  letter-spacing: 17px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.header__menu__item {
+  padding: 40px 50px;
+}
 /*# sourceMappingURL=style.css.map */
