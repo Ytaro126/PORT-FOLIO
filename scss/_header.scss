@@ -1,5 +1,14 @@
+@media screen and(max-width:956px){
+}
+
 .header{
+    background-color: $cWhite;
     display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
     &__logo{
         padding:30px 50px;
         font-size: 30px;
@@ -8,8 +17,14 @@
     &__menu{
         display: flex;
         margin-left:auto;
+        font-size: 20px;
+        letter-spacing: 3px;
         &__item{
             padding:40px 50px;
+            &:hover{
+                opacity: 0.5;
+                text-decoration: underline;
+            }
         }
     }
 }

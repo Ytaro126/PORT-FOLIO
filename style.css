@@ -8,9 +8,15 @@ img {
 }
 
 .header {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .header__logo {
@@ -24,9 +30,22 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 .header__menu__item {
   padding: 40px 50px;
+}
+
+.header__menu__item:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.main-visual {
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
