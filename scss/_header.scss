@@ -1,29 +1,45 @@
-@media screen and(max-width:956px){
+@media(max-width:956px){
+    .header{
+        background-color: $cWhite;
+        display: flex;
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        &__logo{
+            padding:0;
+            font-size: 12px;
+        }
+    }
 }
 
-.header{
-    background-color: $cWhite;
-    display: flex;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    &__logo{
-        padding:30px 50px;
-        font-size: 30px;
-        letter-spacing: 17px;
-    }
-    &__menu{
+
+@media(min-width:957px){
+    .header{
+        background-color: $cWhite;
         display: flex;
-        margin-left:auto;
-        font-size: 20px;
-        letter-spacing: 3px;
-        &__item{
-            padding:40px 50px;
-            &:hover{
-                opacity: 0.5;
-                text-decoration: underline;
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        &__logo{
+            padding:30px 50px;
+            font-size: 30px;
+            letter-spacing: 17px;
+        }
+        &__menu{
+            display: flex;
+            margin-left:auto;
+            font-size: 20px;
+            letter-spacing: 3px;
+            &__item{
+                padding:40px 50px;
+                &:hover{
+                    opacity: 0.5;
+                    text-decoration: underline;
+                }
             }
         }
     }
