@@ -1,15 +1,10 @@
 $cWhite:white;
+$cBlack:black;
 
 
 
-img{
-    width: 100%;
-}
-
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-
+@import './scss/container';
 @import './scss/header';
-@import './scss/main-visual';
+@import './scss/ham';
+@import './scss/mobile';
+
